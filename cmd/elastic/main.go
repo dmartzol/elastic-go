@@ -1,12 +1,3 @@
-//usr/bin/env go run $0 $@; exit
-//
-// Copyright 2015-2019 The elastic.go authors. All rights reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the LICENSE file.
-//
-// Author: Robin Hahling <robin.hahling@gw-computing.net>
-
-// elastic.go is a command line tool to query the Elasticsearch REST API.
 package main
 
 import (

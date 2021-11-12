@@ -1,4 +1,1 @@
-*.swp
-elastic
-elastic-go
-vendor/
+.DS_Store
