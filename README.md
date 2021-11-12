@@ -1,4 +1,6 @@
-# elastic.go - A command-line tool to query the Elasticsearch REST API
+# elastic
+
+## A command-line tool to query the Elasticsearch REST API
 
 `elastic.go` was born to turn commands that look like this:
 
@@ -31,6 +33,7 @@ it. Pull requests are welcome however.
 
 Providing that [Go](https://golang.org) is installed and that `$GOPATH` is set,
 simply use the following command:
+
 ```
 go get -u github.com/Rolinh/elastic-go
 ```
@@ -41,6 +44,7 @@ Make sure that `$GOPATH/bin` is in your `$PATH`.
 
 A `Dockerfile` is provided. Simply run the following command to build the Docker
 image:
+
 ```
 docker build -t Rolinh/elastic-go .
 ```
@@ -48,6 +52,7 @@ docker build -t Rolinh/elastic-go .
 ## Usage
 
 `elastic help` provides general help:
+
 ```
 $ elastic help
 NAME:
@@ -77,6 +82,7 @@ GLOBAL OPTIONS:
 ```
 
 Help works for any subcommand as well. For instance:
+
 ```
 $ elastic index help
 NAME:
